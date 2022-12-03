@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
+    <link href="/assets/css/style.css" rel="stylesheet" >
+    <link href="/assets/css/nav/nav.css" rel="stylesheet" >
+    <link href="/assets/css/about/about.css" rel="stylesheet" >
+    <link href="/assets/css/header/header.css" rel="stylesheet" >
+    <link href="/assets/css/contact/contact.css" rel="stylesheet" >
+    <link href="/assets/css/footer/footer.css" rel="stylesheet" >
+</head>
+<body>
+    <div id="root">
+        <header>
+            <div class="container header__container">
+                <h5>Hello I'm</h5>
+                <h1>I Komang Gede Arta Widana Putra</h1>
+                <h5 class="text-light">Junior Web Developer</h5>
+                <div class="cta">
+                    <a href="/assets/other/My CV.pdf" download
+                    class="btn">Download CV</a>
+                </div>
+                <div class="me">
+                    <img src="/assets/gambar/gw.png" alt="me" loading="lazy">
+                </div>
+            </div>
+        </header>
+        <nav>
+            <a href="#" class="active">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M946.5 505L560.1 118.8l-25.9-25.9a31.5 31.5 0 0 0-44.4 0L77.5 505a63.9 63.9 0 0 0-18.8 46c.4 35.2 29.7 63.3 64.9 63.3h42.5V940h691.8V614.3h43.4c17.1 0 33.2-6.7 45.3-18.8a63.6 63.6 0 0 0 18.7-45.3c0-17-6.7-33.1-18.8-45.2zM568 868H456V664h112v204zm217.9-325.7V868H632V640c0-22.1-17.9-40-40-40H432c-22.1 0-40 17.9-40 40v228H238.1V542.3h-96l370-369.7 23.1 23.1L882 542.3h-96.1z"></path>
+                </svg>
+            </a>
+            <a href="#about" class>
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M858.5 763.6a374 374 0 0 0-80.6-119.5 375.63 375.63 0 0 0-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1-.4.2-.8.3-1.2.5-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 0 0-80.6 119.5A371.7 371.7 0 0 0 136 901.8a8 8 0 0 0 8 8.2h60c4.4 0 7.9-3.5 8-7.8 2-77.2 33-149.5 87.8-204.3 56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 0 0 8-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z"></path>
+                </svg>
+            </a>
+            <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+            <script type="text/javascript">
+                $(document).on('click','a', function(){
+                    $(this).addClass('active').siblings().removeClass('active')
+                })
+            </script>
+            <a href="#contact" class=""><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 2H8C4.691 2 2 4.691 2 8v13a1 1 0 0 0 1 1h13c3.309 0 6-2.691 6-6V8c0-3.309-2.691-6-6-6zm4 14c0 2.206-1.794 4-4 4H4V8c0-2.206 1.794-4 4-4h8c2.206 0 4 1.794 4 4v8z"></path><path d="M7 9h10v2H7zm0 4h7v2H7z"></path>
+            </svg>
+            </a>
+        </nav>
+        <section id="about">
+            <h5>Get To Know</h5>
+            <h2>About Me</h2>
+            <div class="container about__container">
+                <div class="about__me">
+                    <div class="about__me-image">
+                        <img src="/assets/gambar/gw2.jpg" alt="About Image" loading="lazy">
+                    </div>
+                </div>
+                <div class="about__content">
+                    <div class="about_cards"></div>
+                    <p>
+                        Saya fresh graduate dari SMK Negeri 3 Tabanan, Jurusan Teknik Jaringan Komputer dan Telekomunikasi, saya merupakan orang yang bertanggung jawab, disiplin, suka belajar hal baru tentang teknologi. Saya berpengalaman pada bidang programming di website, dan juga berpengalaman pada bidang editing photo dan video
+                    </p>
+                    <a href="#contact" class="btn btn-primary">Lets Talk</a>
+                </div>
+            </div>
+        </section>
+        <section id="experience">
+            
+        </section>
+        <section id="contact">
+            <h5>Get In Touch</h5>
+            <h2>Contact Me</h2>
+            <div class="container contact__container">
+                <div class="contact__options">
+                    <article class="contact__option">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="contact__option-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"></path>
+                        </svg>
+                        <h4>Email</h4>
+                        <h5>widancraft@gmail.com</h5>
+                        <a href="mailto:widancraft@gmail.com" target="_black">Send a message</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <a href="#" class="footer__logo">Arta Widana</a>
+            <ul class="permalinks">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+
+        </footer>
+    </div>
+</body>
+</html>
