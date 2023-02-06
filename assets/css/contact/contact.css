@@ -3,6 +3,7 @@
     display: flexbox;
     grid-template-columns: 30% 58%;
     gap: 12%;
+    text-align: center;
 }
 
 .contact__options {
